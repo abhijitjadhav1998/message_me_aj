@@ -34,6 +34,10 @@ gem 'jbuilder', '~> 2.5'
 # Semantic UI gem
 gem 'semantic-ui-sass'
 gem 'jquery-rails'
+#password digest
+gem 'bcrypt', '~> 3.1.7'
+#get a good UI on console
+gem 'hirb'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
